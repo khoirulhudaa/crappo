@@ -109,7 +109,7 @@ const Content = () => {
         <section className='relative w-screen h-max overflow-hidden bg-[#2B076E] py-[80px]'>
             <div className='absolute left-[10%] top-[-300px] bg-white bg-opacity-[0.1] rounded-full w-[460px] h-[460px]'></div>
             <h2 data-aos='fade-up' className='text-[36px] lg:text-[40px] w-[90%] lg:w-[60%] ml-auto mr-auto text-center text-white font-bold leading-[1.5em] mb-8'>Market sentiments, portfolio, and run the infrastructure of your choice</h2>
-            <div className='fblock lg:lex items-center w-[80vw] ml-auto mr-auto py-[20px] lg:py-[40px] my-[80px]'>
+            <div className='block lg:flex items-center w-[80vw] ml-auto mr-auto py-[20px] lg:py-[40px] my-[80px]'>
                 <div data-aos='fade-up' data-aos-duration='600' className='w-[100vw] lg:w-[50%]'>
                     <h3 className='text-white font-bold leading-[1.5em] text-[30px] mb-[20px]'>Invest Smart</h3>
                     <p className='w-[70%] leading-[1.5em] text-slate-300'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. </p>
