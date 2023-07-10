@@ -3,7 +3,7 @@ import { Footer1, Footer2, Footer3, Logo, Sosmed1, Sosmed2, Sosmed3, Sosmed4, So
 
 const Footer = () => {
   return (
-    <div className='w-screen bg-[#0D0D2B] h-max px-[40px] py-[20px] lg:py-[60px]'>
+    <div className='w-screen bg-[#0D0D2B] h-max px-[20px] lg:px-[40px] py-[20px] lg:py-[60px]'>
         <div className='w-full px-[0px] lg:px-[100px] lg:flex'>
           <div className='w-[100vw] lg:w-[25%] mb-[40px] lg:mb-[0] flex lg:justify-start lg:items-start'><img src={Logo} alt='logo-icon' /></div>
           <div className='w-[100vw] lg:w-[25%] mb-[40px] lg:mb-[0] flex-col flex lg:justify-start lg:items-start'>
@@ -67,14 +67,14 @@ const Footer = () => {
           <div className='w-[100%] lg:w-[25%] mb-[40px] lg:mb-[0] flex-col flex justify-start items-start'>
             <h2 className='font-bold text-white text-[26px] leading-[1.5em] mb-[30px]'>We accept following payment systems</h2>
             <div className='flex items-center my-[20px]'>
-              <div className='bg-[#E0E0E0] flex items-center w-[32%] h-[40px] bg-opacity-[0.3] cursor-pointer hover:brightness-[80%] justify-center w-max h-max mr-3 rounded-lg px-[20px] py-[5px]'>
-                <img src={Footer1} alt="img-footer" />
+              <div className='bg-[#E0E0E0] flex items-center w-[31%] lg:w-[32%] h-[40px] bg-opacity-[0.3] cursor-pointer hover:brightness-[80%] justify-center w-max mr-3 rounded-lg px-[20px] py-[5px]'>
+                <img src={Footer1} alt="img-footer" className='w-[70%]' />
               </div>
-              <div className='bg-[#E0E0E0] flex items-center w-[32%] h-[40px] bg-opacity-[0.3] cursor-pointer hover:brightness-[80%] justify-center w-max h-max mx-3 rounded-lg px-[20px] py-[5px]'>
-                <img src={Footer2} alt="img-footer" />
+              <div className='bg-[#E0E0E0] flex items-center w-[31%] lg:w-[32%] h-[40px] bg-opacity-[0.3] cursor-pointer hover:brightness-[80%] justify-center w-max mx-3 rounded-lg px-[20px] py-[5px]'>
+                <img src={Footer2} alt="img-footer" className='w-[70%]' />
               </div>
-              <div className='bg-[#E0E0E0] flex items-center w-[32%] h-[40px] bg-opacity-[0.3] cursor-pointer hover:brightness-[80%] justify-center w-max h-max mx-3 rounded-lg px-[20px] py-[5px]'>
-                <img src={Footer3} alt="img-footer" />
+              <div className='bg-[#E0E0E0] flex items-center w-[31%] lg:w-[32%] h-[40px] bg-opacity-[0.3] cursor-pointer hover:brightness-[80%] justify-center w-max mx-3 rounded-lg px-[20px] py-[5px]'>
+                <img src={Footer3} alt="img-footer" className='w-[70%]' />
               </div>
             </div>
           </div>

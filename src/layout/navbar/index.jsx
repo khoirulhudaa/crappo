@@ -78,9 +78,9 @@ const Navbar = () => {
             </div>
         </div>
         <div onClick={(e) => handleSidebare(e)} className='lg:hidden flex flex-col cursor-pointer hover:brightness-[80%] active:scale-[0.98]'>
-          <div className='w-[38px] h-[4px] bg-white mb-2 rounded-full'></div>
-          <div className='w-[38px] h-[4px] bg-white mb-2 rounded-full'></div>
-          <div className='w-[38px] h-[4px] bg-white mb-2 rounded-full'></div>
+          <div className='w-[32px] h-[3px] lg:w-[38px] lg:h-[4px] bg-white mb-[6px] rounded-full'></div>
+          <div className='w-[32px] h-[3px] lg:w-[38px] lg:h-[4px] bg-white mb-[6px] rounded-full'></div>
+          <div className='w-[32px] h-[3px] lg:w-[38px] lg:h-[4px] bg-white mb-[6px] rounded-full'></div>
         </div>
     </div>
   )

@@ -12,11 +12,11 @@ const Hero = () => {
 
   return (
     <div className='relative w-screen overflow-hidden ml-auto mr-auto py-[40px] lg:py-[70px] flex items-center h-max bg-[#0D0D2B]'>
-        <div className='w-[100vw] block lg:flex px-[30px] lg:px-[100px] ml-auto mr-auto h-max'>
-          <div className='relative w-[100%] lg:w-[50vw] h-max flex flex-col justify-center  lg:w-[50vw]'>
+        <div className='w-[100vw] block lg:flex px-[20px] lg:px-[100px] ml-auto mr-auto h-max'>
+          <div className='relative w-[100%] lg:w-[50vw] h-max flex flex-col justify-center lg:w-[50vw]'>
             <div className='w-max bg-white bg-opacity-[0.2] items-center rounded-full px-2 py-2 h-max flex justify-center'>
               <div className='bg-white text-center rounded-full py-1 text-[12px] px-2 text-[#0D0D2B] font-bold mr-3'>
-                75% SAVE
+                75% SAVE874
               </div>
               <p className='text-white text-[13px]'>For the Black Friday weekend</p>
             </div>
